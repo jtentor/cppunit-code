@@ -1,3 +1,8 @@
+2013-04-19 Baptiste Lepilleur <blep@users.sourceforge.net>
+    * amalgamate.py: a Python 2.6 script to generate a single .cpp of
+	  src/cppunit library. Used to reduce build time when always building
+	  from source or use an alternate build system.
+
 2012-08-05 Harvey Brydon <hbrydon@users.sourceforge.net>
     * Fix VS2010 C4251 warnings (bug #3554666)
     * Fix VS2010 "_WIN32_WINNT not defined..." warnings (bug #3554667).
