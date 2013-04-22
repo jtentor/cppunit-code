@@ -1,3 +1,7 @@
+2013-04-22 Baptiste Lepilleur <blep@users.sourceforge.net>
+    * src/cppunit/DllMain.cpp: wrapped code in preprocessor guard to
+	  allow single amalgamated source working on Windows and Unix.
+
 2013-04-19 Baptiste Lepilleur <blep@users.sourceforge.net>
     * amalgamate.py: a Python 2.6 script to generate a single .cpp of
 	  src/cppunit library. Used to reduce build time when always building
