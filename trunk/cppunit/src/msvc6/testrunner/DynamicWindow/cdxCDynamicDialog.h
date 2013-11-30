@@ -44,7 +44,7 @@ protected:
 	afx_msg void OnParentNotify(UINT message, LPARAM lParam);
 	afx_msg void OnSize(UINT nType, int cx, int cy);
 	afx_msg void OnSizing(UINT fwSide, LPRECT pRect);
-	afx_msg void OnTimer(UINT nIDEvent);
+	afx_msg void OnTimer(UINT_PTR nIDEvent);
 
 	DECLARE_MESSAGE_MAP();
 };
@@ -53,7 +53,7 @@ protected:
  * cdxCDynamicChildDlg
  * ===================
  * Use this dialog class instead of cdxCDynamicDialog if
- * you create dialogs which you want to embedd as child
+ * you create dialogs which you want to embed as child
  * controls.
  * In that case, this dialog is far more straight forward.
  * This class provides:
