@@ -353,7 +353,7 @@ protected:
 	void DoOnDestroy();
 
 	void DoOnParentNotify(UINT message, LPARAM lParam);
-	void DoOnTimer(UINT nIDEvent);
+	void DoOnTimer(UINT_PTR nIDEvent);
 	void DoOnSize(UINT nType, int cx, int cy);
 	void DoOnSizing(UINT fwSide, LPRECT pRect);
 	void DoOnGetMinMaxInfo(MINMAXINFO FAR* lpMMI);
